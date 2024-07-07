@@ -1,0 +1,17 @@
+[proxy]
+node1
+
+[webservers]
+node2
+node3
+
+[databases]
+node3
+node4
+
+[nas]
+node5
+
+[public:children]
+webservers
+proxy
